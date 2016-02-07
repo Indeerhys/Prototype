@@ -1,0 +1,183 @@
+/*=============================
+        Index of CSS
+        1. General
+        2. Header
+        3. Login Page
+        4. Character Page
+        5.
+        6.
+        7.
+        8.
+==============================*/
+
+
+
+/*******************************
+    1.    General
+*******************************/
+
+h1, h2, h3, h4, h5, h6{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  margin: 0 8px;
+}
+
+.body{
+  background-image: url("../img/Mobile-Background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/*******************************
+     2.     Header
+*******************************/
+
+.title{
+  text-align: center;
+  font-size: 1.5em;
+}
+
+/*******************************
+      3.     Login
+*******************************/
+/*Login Title*/
+
+.login-title > h1{
+  text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+  text-align: center;
+  margin: 30px 0 20px;
+  font-size: 2em;
+  color: white;
+}
+
+/*Login Form*/
+.login{
+  border: 2px solid white;
+  margin: 0 auto;
+  height: 200px;
+  width: 300px;
+  position:absolute;
+}
+/*Character Name Input*/
+.login-name{
+  margin: 30px 0;
+  text-align: center;
+}
+
+.login-name > input{
+  text-align: center;
+  font-size: 2em;
+  width: 200px;
+  height: 40px;
+}
+
+/*New & Load*/
+.login-buttons{
+  text-align: center;
+}
+
+.login-buttons > button{
+  width: 100px;
+  height: 25px;
+  font-size: 1em;
+}
+
+/*******************************
+      4.     Character
+*******************************/
+
+/*Basic Form CSS*/
+.the-creator{
+  /*display: flex;*/
+  /*flex-direction: column;*/
+  border: 2px black solid;
+  height: 585px;
+  width:300px;
+  margin: 0 auto;
+
+}
+
+
+/*Name*/
+.name{
+  text-align: center;
+  margin: 10px auto;
+}
+
+/*Alignment*/
+.alignment{
+  display: flex;
+  flex-direction: column;
+  margin: 10px auto 0;
+  text-align: center;
+}
+
+.alignment > div{
+  padding: 10px 0;
+}
+
+#alignment{
+  width: 150px;
+}
+
+/*race*/
+.race{
+  /*display: flex; */
+  /*flex-direction: column;*/
+  margin: 10px auto 0;
+  text-align: center;
+}
+
+.race > div{
+  padding: 10px 0;
+}
+
+#race{
+  width: 150px;
+}
+
+/*stats*/
+.randomstat{
+  display: block;
+  margin: 0 auto;
+  height: 50px;
+  width: 50px;
+}
+
+.stat-output{
+  padding-left: 65px;
+  margin-top: 10px;
+}
+
+div.stats > div > h4 {
+  border: 2px black solid;
+  max-width: 150px;
+  padding: 5px 10px 5px 10px;
+}
+
+div.stats > div > h4 > input[type="text"] {
+  width: 10px;
+  float: right;
+}
+
+/*Character Creation*/
+.accept{
+  width: 300px;
+  padding: 10px 0;
+  margin: 20px 0 5px;
+  font-size: 1.5em;
+}

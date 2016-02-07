@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <title>Character Page</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="description" content=""/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body class="body">
+    <div class="title">Dungeon Bot V0.1</div>
+    <div class="the-creator">
+      <div class="name">
+        <h2>Name</h2>
+        <input type="text" id='playerNameInput' name="playerNameInput" value="">
+      </div>
+
+      <div class="alignment">
+        <label>Character Alignment</label>
+        <div>
+          <select name="alignment" id="alignment">
+            <option>Lawful Good</option>
+            <option>Lawful Neutral</option>
+            <option>True</option>
+            <option>Lawful Evil</option>
+            <option>Neutral Good</option>
+            <option>Neutral Evil</option>
+            <option>Chaotic Good</option>
+            <option>Chaotic Neutral</option>
+            <option>Chaotic Evil</option>
+          </select>
+        </div>
+      </div>
+
+    ​  <div class="race">
+        <label>Character Race</label>
+        <div>
+          <select name="race" id="race">
+            <option>Dragonborn</option>
+            <option>Drow</option>
+            <option>Dwarf</option>
+            <option>Eladrin</option>
+            <option>Elf</option>
+            <option>Gnome</option>
+            <option>Helf-elf</option>
+            <option>Half-orc</option>
+            <option>Halfling</option>
+            <option>Human</option>
+            <option>Tiefling</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="stats">
+        <img class="randomstat" src="img/d20.png"  onclick="createPlayer()" alt=""/>
+        <div class="stat-output">
+          <h4>STR: <input class="stat" max="9" min="0" type="number" name="STR" id="STR" value="0"></h4>
+          <h4>DEX: <input class="stat" max="9" min="0" type="number" name="DEX" id="DEX" value="0"></h4>
+          <h4>CON: <input class="stat" max="9" min="0" type="number" name="CON" id="CON" value="0"></h4>
+          <h4>PER: <input class="stat" max="9" min="0" type="number" name="PER" id="PER" value="0"></h4>
+          <h4>WIS: <input class="stat" max="9" min="0" type="number" name="WIS" id="WIS" value="0"></h4>
+          <h4>CHA: <input class="stat" max="9" min="0" type="number" name="CHA" id="CHA" value="0"></h4>
+       </div>
+     </div>
+
+     <div class="create">
+       <button type="button" name="button" class="accept" onclick="saveData()">Accept</button>
+     </div>
+     <div class="loadChar">
+       <button type="button" name="button" class="load" onclick="loadData()">Load</button>
+     </div>
+     <script src="js/jquery-2.2.0.min.js"></script>
+     <script src= "js/dungeon.js"></script>
+  </body>​
+</html>
