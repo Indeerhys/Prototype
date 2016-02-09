@@ -1,0 +1,94 @@
+/*******************************
+          Game-Screen
+*******************************/
+.left-side{
+  float: left;
+  transition: all 0.75s ease-in-out;
+}
+.hal-bot{
+  height: 300px;
+  width: 200px;
+}
+
+.statblock{
+  border: 1px solid black;
+  width: 200px;
+}
+
+.statblock h6 {
+
+    font-size: 20px;
+    background: rgba(0,0,0,0.70);
+    color: white;
+    opacity: 0.7;
+    border: 1px solid black;
+    margin: 10px auto;
+    width: 180px;
+}
+
+.chat{
+  border: 2px solid black;
+  height: 557px;
+  background:rgba(232,232,232,0.25);
+  font:16px Georgia, Garamond, Serif;
+  overflow:auto;
+}
+
+/*******************************
+          Chat-Box
+*******************************/
+
+.flexbox-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.arrow-left {
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 20px solid black;
+    margin: 46px 0px 0px 0px;
+}
+
+.arrow-right {
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 20px solid black;
+    margin: 56px 0px 0px -1px;
+}
+
+.chatbox-left{
+    border: 2px solid black;
+    border-radius: 70px;
+    width: 230px;
+    margin: 10px 0px 0px -1px ;
+}
+
+.chatbox-right {
+    border: 2px solid black;
+    border-radius: 70px;
+    width: 250px;
+    margin: 17px 0px 0px 45px;
+}
+
+.chatbox-left > p{
+  width: 200px;
+  margin-left: 30px;
+}
+
+.chatbox-right > p{
+  width: 200px;
+  margin-left: 30px;
+}
+
+
+
+
+.hidden {
+  margin-left: -210px!important;
+  transition: all 0.75s ease-in-out;
+}

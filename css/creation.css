@@ -1,0 +1,89 @@
+/*******************************
+     2.     Header
+*******************************/
+
+.title{
+  text-align: center;
+  font-size: 1.5em;
+}
+
+/*******************************
+      Character-Creation
+*******************************/
+
+/*Basic Form CSS*/
+.the-creator{
+  border: 2px black solid;
+  height: 585px;
+  width:300px;
+  margin: 0 auto;
+}
+
+/*Name*/
+.name{
+  text-align: center;
+  margin: 10px auto;
+}
+
+/*Alignment*/
+.alignment{
+  display: flex;
+  flex-direction: column;
+  margin: 10px auto 0;
+  text-align: center;
+}
+
+.alignment > div{
+  padding: 10px 0;
+}
+
+#alignment{
+  width: 150px;
+}
+
+/*race*/
+.race{
+  /*display: flex; */
+  /*flex-direction: column;*/
+  margin: 10px auto 0;
+  text-align: center;
+}
+
+.race > div{
+  padding: 10px 0;
+}
+
+#race{
+  width: 150px;
+}
+
+/*stats*/
+.randomstat{
+  display: block;
+  margin: 0 auto;
+  height: 50px;
+  width: 50px;
+}
+
+.stat-output{
+  padding-left: 65px;
+  margin-top: 10px;
+}
+
+div.stats > div > h4 {
+  border: 2px black solid;
+  max-width: 150px;
+  padding: 5px 10px 5px 10px;
+}
+
+.stat-output > h4 > input{
+  float: right;
+}
+
+/*Character Creation*/
+.accept{
+  width: 300px;
+  padding: 10px 0;
+  margin: 20px 0 5px;
+  font-size: 1.5em;
+}
