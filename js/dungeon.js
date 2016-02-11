@@ -141,3 +141,9 @@ function saveData() {
   //combine with saved data
     //create graphic to show inventory and items
       //have the bot be able to list back items to player
+
+// scrap CSS
+
+$("#trigger").click(function() {
+  $(".left-side").toggleClass("hidden");
+});

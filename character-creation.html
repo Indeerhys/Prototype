@@ -7,11 +7,12 @@
 <!--<![endif]-->
   <head>
     <meta charset="utf-8">
-    <title>Character Page</title>
+    <title>Character Creation</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="description" content=""/>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/creation.css">
   </head>
 
   <body class="body">
@@ -61,20 +62,17 @@
       <div class="stats">
         <img class="randomstat" src="img/d20.png"  onclick="createPlayer()" alt=""/>
         <div class="stat-output">
-          <h4>STR: <input class="stat" max="9" min="0" type="number" name="STR" id="STR" value="0"></h4>
-          <h4>DEX: <input class="stat" max="9" min="0" type="number" name="DEX" id="DEX" value="0"></h4>
-          <h4>CON: <input class="stat" max="9" min="0" type="number" name="CON" id="CON" value="0"></h4>
-          <h4>PER: <input class="stat" max="9" min="0" type="number" name="PER" id="PER" value="0"></h4>
-          <h4>WIS: <input class="stat" max="9" min="0" type="number" name="WIS" id="WIS" value="0"></h4>
-          <h4>CHA: <input class="stat" max="9" min="0" type="number" name="CHA" id="CHA" value="0"></h4>
+          <h4>STR:<input class="stat" max="9" min="0" type="number" name="STR" id="STR" value="0"></h4>
+          <h4>DEX:<input class="stat" max="9" min="0" type="number" name="DEX" id="DEX" value="0"></h4>
+          <h4>CON:<input class="stat" max="9" min="0" type="number" name="CON" id="CON" value="0"></h4>
+          <h4>PER:<input class="stat" max="9" min="0" type="number" name="PER" id="PER" value="0"></h4>
+          <h4>WIS:<input class="stat" max="9" min="0" type="number" name="WIS" id="WIS" value="0"></h4>
+          <h4>CHA:<input class="stat" max="9" min="0" type="number" name="CHA" id="CHA" value="0"></h4>
        </div>
      </div>
 
      <div class="create">
        <button type="button" name="button" class="accept" onclick="saveData()">Accept</button>
-     </div>
-     <div class="loadChar">
-       <button type="button" name="button" class="load" onclick="loadData()">Load</button>
      </div>
      <script src="js/jquery-2.2.0.min.js"></script>
      <script src= "js/dungeon.js"></script>
